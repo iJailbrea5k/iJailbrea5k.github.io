@@ -1,13 +1,17 @@
-body{
+body {
     text-align: center;
 }
 
-#o{
-  color:red;  
+#o {
+    color: red;
 }
 
-.container{
-    width:600px;
+.container {
+    width: 600px;
 }
 
-
+@media all and (max-width:768px) {
+    .container {
+        width: 350px;
+    }
+}
