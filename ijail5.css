@@ -12,6 +12,6 @@ body {
 
 @media all and (max-width:768px) {
     .container {
-        width: 350px;
+        width: 250px;
     }
 }
