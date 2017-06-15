@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-#o {
+#o,#wind,#mac{
     color: red;
 }
 
@@ -10,8 +10,18 @@ body {
     width: 600px;
 }
 
+#z{
+    color:blue;
+}
+
 @media all and (max-width:768px) {
     .container {
         width: 350px;
     }
 }
+
+#header{
+    padding:0.5%;
+}
+
+
