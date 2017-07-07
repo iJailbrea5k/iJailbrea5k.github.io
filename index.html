@@ -4,166 +4,134 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xiaomi Story File Document</title>
+    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="ijail5.css">
-    <title>iOS11 IPA VER CHART by.iJialbrea5k</title>
+    <link rel="stylesheet" type="text/css" href="http://s01.appmifile.com/css/kr/base.css?15dcb84">
+    <link rel="stylesheet" type="text/css" href="http://s01.appmifile.com/css/kr/index.css?9063d46">
     <script>
-        function elppadev() {
-            alert("준비중 입니다.");
-        }
+        $(document).ready(function() {
+            $("#SHOW").click(function() {
+                $("#ROM").fadeIn(500);
+            });
+            $('#xsfd').click(function() {
+                $('#xstitle').fadeIn(500);
+            });
+            $('#utl').click(function() {
+                $('#xstable1').fadeIn(500);
+            });
+            $('#apk').click(function() {
+                $('#ROM').fadeIn(500);
+            });
+        });
 
     </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <div id="header">iOS11 베타를 위한 카카오톡 버전별 ID값 정렬입니다.<br> Support의
-        <dive id="o">X</dive>는
-        <dive id="o">미지원</dive> 및
-        <dive id="o">미확인</dive>입니다.<br> 문의 및 버전에 대한 지원 확인 수정은
-        <dive id="z">sa_8001@icloud.com</dive>으로 보내주세요.
+    <div id="htitle">
+        <div class="entry-board J_entryBoard">
+            <div class="container">
+                <ul class="external-entries">
+                    <li class="entry"><a href="javascript:void(0)" onclick="elppa(0)" id="xsfd">XSFD</a></li>
+                    <li class="entry"><a href="javascript:void(0)" onclick="elppa(1)" id="SHOW">ROM</a></li>
+                    <li class="entry"><a href="javascript:void(0)" onclick="elppa(2)" id="utl">Utility</a></li>
+                    <li class="entry"><a href="javascript:void(0)" onclick="elppa(3)" id="apk">APK</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="xstitle">
+        <h1>
+            <p><br>환영합니다!</p>
+        </h1>
         <br>
-        <dive id="o">iOS11 IPA VER CHART</dive>에서 제공하는 다운로드는 전부
-        <dive id="o">64bit용</dive> 입니다.</div><button data-toggle="collapse" data-target="#downgarade" id="down" class="btn btn-danger">다운그레이드 방법</button>
-    <div id="downgarade" class="collapse">1.아이튠즈 구버전을 설치 합니다.(<a id="wind" href="https://secure-appldnld.apple.com/itunes12/031-34005-20150916-98D38F1E-5C11-11E5-A6AD-C05A6DA99CB1/iTunes6464Setup.exe">Windows</a> or <a id="mac" href="https://secure-appldnld.apple.com/itunes12/031-19002.20150409.9C24E/iTunes12.1.2.dmg">macOS</a>)<br>2.Chales 구버전을 설치합니다.(<a id="wind" href="https://www.charlesproxy.com/assets/release/3.11.7/charles-proxy-3.11.7-win64.msi">Windows</a> or <a id="mac" href="https://www.charlesproxy.com/assets/release/3.11.7/charles-proxy-3.11.7.dmg">macOS</a>)<br>3.아래의 영상을 보고 진행합니다.(Windows 및 macOS 동일)<br><iframe width="560" height="315" src="https://www.youtube.com/embed/xL70CLXhF9U" frameborder="0" allowfullscreen></iframe></div>
-    <p></p>
-    <div class="container">
+        <h4>이곳은 샤오미 스토리 사용자들을 위한 자료실 입니다.</h4><br>
+        <h4>처음 샤오미 제품을 접하는 사용자들이 보다 쉽게 이용할 수 있게</h4><br>
+        <h4>도움이 되도록 파일들을 정리 및 다운로드 제공을 해드립니다.</h4><br>
+        <h4>ROM은 커스텀롬을 받으실 수 있으며 Utility는 각종 지원 툴을 APK는 APK다운을 지원합니다.</h4><br>
+        <h5 id="hh5">(APK같은 경우 유료앱을 무료로 제공하거나 하지 않습니다.)</h5>
+    </div>
+    <div id="ROM"><img src="공사.png" id="back"></div>
+
+    <div class="container" id="xstable1">
+        <z style="color:blue">파란색</z> 글자를 누르실 경우 각 버전별 다운로드 링크를 펼쳤다 접을 수 있습니다. 최신버전은 <z style="color:red">붉은색</z> 으로 표시됩니다.
         <table class="table table-hover table-bordered">
             <thead>
                 <tr>
-                    <th>App Name</th>
-                    <th>ID Value</th>
-                    <th>Ver</th>
-                    <th>Support</th>
+                    <th>이름</th>
+                    <th>출처(버전)</th>
+                    <th>버전</th>
+                    <th>다운로드</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th>Kakao Talk</th>
-                    <th>819334328</th>
-                    <th>5.9.0</th>
-                    <th>O</th>
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>Unknown　　</td>
+                    <td data-toggle="collapse" data-target="#table2,#table3,#table4,#table5,#table6,#table7,#table8"><a style="color:blue">다운로드</a></td>
+                </tr>
+                <tr id="table2" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20140509</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20140509.zip">다운로드</a></td>
+                </tr>
+                <tr id="table3" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20150601</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20150601.zip">다운로드</a></td>
+                </tr>
+                <tr id="table4" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20150731</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20150731.zip">다운로드</a></td>
+                </tr>
+                <tr id="table5" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20151028</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20151028.zip">다운로드</a></td>
+                </tr>
+                <tr id="table6" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20160401</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20160401.zip">다운로드</a></td>
+                </tr>
+                <tr id="table7" class="collapse">
+                    <td>Mi Flash</td>
+                    <td>Xiaomi</td>
+                    <td>20160830</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20160830.zip">다운로드</a></td>
+                </tr>
+                <tr id="table8" class="collapse">
+                    <td style="color:red">Mi Flash</td>
+                    <td style="color:red">Xiaomi</td>
+                    <td style="color:red">20161222</td>
+                    <td><a href="https://github.com/iJailbrea5k/iJailbrea5k.github.io/raw/master/Utility/MiFlash20161222.zip" style="color:red">다운로드</a></td>
                 </tr>
                 <tr>
-                    <th>Kakao Talk</th>
-                    <th>819549230</th>
-                    <th>5.9.1</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>819654412</th>
-                    <th>5.9.2</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>819766449</th>
-                    <th>5.9.5</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>819882256</th>
-                    <th>5.9.6</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820170618</th>
-                    <th>5.9.8</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820348635</th>
-                    <th>5.9.9</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820486955</th>
-                    <th>5.9.10</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820582916</th>
-                    <th>6.0.0</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820622075</th>
-                    <th>6.0.1</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820671832</th>
-                    <th>6.0.2</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>820849451</th>
-                    <th>6.0.3</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821044130</th>
-                    <th>6.1.0</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821138074</th>
-                    <th>6.1.1</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821188304</th>
-                    <th>6.1.5</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821601616</th>
-                    <th>6.1.6</th>
-                    <th>O</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821833752</th>
-                    <th>6.2.0</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>821891589</th>
-                    <th>6.2.1</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>822091306</th>
-                    <th>6.2.2</th>
-                    <th>X</th>
-                </tr>
-                <tr>
-                    <th>Kakao Talk</th>
-                    <th>822124721</th>
-                    <th>6.2.2</th>
-                    <th>X</th>
+                    <td>준비중</td>
+                    <td>Xiaomi</td>
+                    <td>Unknown　　</td>
+                    <td data-toggle="collapse" data-target="#table2,#table3"><a>다운로드</a></td>
                 </tr>
             </tbody>
         </table>
     </div>
-
+    
+    <div id="footer" class="footer-bottom">
+        <div class="container">Xiaomi Story 2015~2017 By.ElppaDev</div>
+    </div>
 </body>
 
 </html>
