@@ -1,7 +1,17 @@
 #xstitle{
     text-align: center;
-    position:relative;
-    top:80px;
+    padding: 7%;
+    width:100%;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
 }
 
 #hh5{
@@ -15,11 +25,7 @@
     width: 100%;
 }
 
-#footer{
-    position: fixed;
-    bottom:0px;
-    width:100%;
-}
+
 
 #ROM{
     display:none;
@@ -27,15 +33,25 @@
 
 #back{
     width:100%;
-    position:relative;
-    top:25px;
+
     text-align: center;
     background-color:black;
 }
 
+
 #xstable1{
-    position: absolute;
-    top:60px;
+    display:none;
+    text-align: center;
+}
+
+footer{
+    background-color:black;
+    
     width:100%;
-    display: none;
+    padding: 10px;
+    color:darkgray;
+}
+
+#elppa{
+    text-align: right;
 }
