@@ -7,7 +7,7 @@
 html,body{
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
 
 header{
@@ -42,14 +42,6 @@ header{
 #xstable1{
     display:none;
     text-align: center;
-}
-
-footer{
-    background-color:black;
-    
-    width:100%;
-    padding: 10px;
-    color:darkgray;
 }
 
 #elppa{
