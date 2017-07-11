@@ -5,6 +5,10 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
+#text_1{
+    text-align: center;
+}
+
 body {
     margin: 0
 }
