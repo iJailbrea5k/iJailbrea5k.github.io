@@ -41,7 +41,11 @@ header{
 
 #xstable1{
     display:none;
-    text-align: center;
+    
+}
+
+#test{
+    color:darkgray;
 }
 
 #elppa{

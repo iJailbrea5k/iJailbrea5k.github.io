@@ -1,0 +1,157 @@
+body {
+    font-family: "microsoft yahei";
+}
+
+.header_on {
+    background-color: #fd6323;
+    height: 1098px;
+}
+
+.header {
+    width: 1000px;
+    height: 728px;
+    padding-top: 370px;
+    background: url(index_11.png) no-repeat 323px 168px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.download {
+    width: 331px;
+    height: 77px;
+    display: inline-block;
+    background: url(index_2.png) no-repeat 0 0;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.header p a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
+    padding-right: 26px;
+    background: url(index_6.png) no-repeat right center;
+    display: inline-block;
+}
+
+.detai_img {
+    position: absolute;
+    left: -100px;
+    top: 500px;
+    width: 1200px;
+    height: 900px;
+    background: url(index_02.png) no-repeat center;
+}
+
+.content_on {
+    background-color: #fdfdfd;
+    height: 700px;
+    background-color: #fdfdfd;
+}
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
+.menus {
+    width: 904px;
+    height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 80px;
+}
+
+.menus a {
+    display: block;
+    width: 180px;
+    float: left;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    border-right: 1px solid #e3e3e3;
+    text-align: center;
+    color: #f29e1a;
+}
+
+.menus a:hover {
+    color: #FD6323;
+}
+
+
+.description {
+    position: relative;
+    width: 360px;
+    height: 60px;
+    margin-bottom: 80px;
+    padding: 0 360px 80px 280px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.description p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #5b5b5b;
+}
+
+.span_0 {
+    color: #f64a00;
+    margin-right: 20px;
+}
+
+.span_1 {
+    color: #575757;
+}
+
+.detail div {
+    width: 146px;
+    height: 30px;
+    padding-top: 140px;
+    float: left;
+    text-align: center;
+    color: #4b4b4b;
+}
+
+.detai_0 {
+    margin-right: 140px;
+}
+
+.detai_1 {
+    margin-right: 136px;
+}
+
+.detai_2 {
+    margin-right: 136px;
+}
+
+.detai_3 {
+    margin-right: 0;
+}
+
+.footer_on {
+    background-color: #fdfdfd;
+    height: 140px;
+    background-color: #fdfdfd;
+}
+
+.footer {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #e9e9e9;
+}
+
+.footer p {
+    text-align: center;
+    color: #aeaeae;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 40px;
+}
